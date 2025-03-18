@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           cd dist
           git init
@@ -37,4 +37,4 @@ jobs:
           git checkout -b gh-pages
           git add .
           git commit -m "Deploy updates"
-          git push -f https://x-access-token:${GH_TOKEN}@github.com/suklins-ice/torpedo-document.git gh-pages
+          git push -f https://x-access-token:${GH_PAT}@github.com/suklins-ice/torpedo-document.git gh-pages
