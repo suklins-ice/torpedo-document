@@ -55,8 +55,8 @@
 </template>
 
 <script>
-import axios from 'axios';
-
+// import axios from 'axios';
+const DownloadJSON = require('../download-config.json');
 export default {
   name: 'DownloadComponent',
   data() {
@@ -84,8 +84,7 @@ export default {
   methods: {
     async loadConfig() {
       try {
-        const response = await axios.get('/download-config.json');
-        this.config = response.data;
+        this.config = DownloadJSON;
       } catch (error) {
         console.error('Error loading config:', error);
       }
