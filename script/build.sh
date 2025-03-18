@@ -1,7 +1,8 @@
 yarn build
-cd dist
-mv ../dist.git .git
+cd ../dist
+git init
+git remote add origin https://github.com/suklins-ice/torpedo-document.git
 git add .
-git push
-cp -r .git ../dist.git
-git subtree push --prefix dist origin gh-pages
+git commit -m "Update document"
+git branch -M gh-pages
+git push -u origin gh-pages
