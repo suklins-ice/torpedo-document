@@ -1,0 +1,30 @@
+{
+  "ios": {
+    "sdk": [
+      { "version": "1.0.0", "link": "/path/to/sdk1" },
+      { "version": "1.1.0", "link": "/path/to/sdk2" }
+    ],
+    "apk": [
+      { "version": "1.0.0", "link": "/path/to/apk1" },
+      { "version": "1.1.0", "link": "/path/to/apk2" }
+    ],
+    "history": [
+      "Version 1.0.0 - Initial release", 
+      "Version 1.1.0 - Added new features"
+    ]
+  },
+  "android": {
+    "sdk": [
+      { "version": "1.0.0", "link": "/path/to/sdk1" },
+      { "version": "1.1.0", "link": "/path/to/sdk2" }
+    ],
+    "apk": [
+      { "version": "1.0.0", "link": "/path/to/apk1" },
+      { "version": "1.1.0", "link": "/path/to/apk2" }
+    ],
+    "history": [
+      "Version 1.0.0 - Initial release",
+      "Version 1.1.0 - Added new features\\ntest"
+    ]
+  }
+}
