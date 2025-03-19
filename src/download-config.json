@@ -15,17 +15,17 @@
   },
   "android": {
     "sdk": [
-      { "version": "1.0.0", "link": "./files/test.zip" },
-      { "version": "1.1.0", "link": "./files/test.zip" }
+      { "version": "1.0.0", "link": "./files/android/my.zip" },
+      { "version": "1.0.9.28", "link": "./files/andoid/my/v2.3/sdk/v1.0.9.28.zip" }
     ],
     "apk": [
       { "version": "1.0.0", "link": "/path/to/apk1" },
       { "version": "1.1.0", "link": "/path/to/apk2" },
-      { "version": "1.1.1", "link": "/path/to/apk2" }
+      { "version": "2.3.36 Build 2", "link": "./files/andoid/my/v2.3/apk/kyc_center_VerifySDK-v2.3.36_14-03-2025_03.52.apk" }
     ],
     "history": [
       "Version 1.0.0 - Initial release",
-      "Version 1.1.0 - Added new features\\ntest"
+      "Version 2.3.36 Build 2 - Update tencent \\nUpdate Time Out"
     ]
   }
 }
